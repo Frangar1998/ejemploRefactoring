@@ -1,0 +1,7 @@
+organization=frangar1998
+projectKey=francisco-FowlersinRefactorizar
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.7205
+dashboardUrl=https://sonarcloud.io/dashboard?id=francisco-FowlersinRefactorizar
+ceTaskId=AXG8QG9hTlXSn67xBRTT
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXG8QG9hTlXSn67xBRTT
