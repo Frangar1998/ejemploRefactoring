@@ -16,17 +16,75 @@ getClass(),java.lang.Object#getClass()Ljava/lang/Class;5
 notifyAll()java.lang.Object#notifyAll()V"
 wait()java.lang.Object#wait()V*
 
-hashCode()java.lang.Object#hashCode()I’
+hashCode()java.lang.Object#hashCode()IÈ
 ejemploRefactorizacion.Moviejava.lang.ObjectG
 
 getTitle()9ejemploRefactorizacion.Movie#getTitle()Ljava/lang/String;>
-getPriceCode(),ejemploRefactorizacion.Movie#getPriceCode()I@
+getPriceCode(),ejemploRefactorizacion.Movie#getPriceCode()I:
+getCharge(I)*ejemploRefactorizacion.Movie#getCharge(I)DV
+getFrequentRenterPoints(I)8ejemploRefactorizacion.Movie#getFrequentRenterPoints(I)I@
 setPriceCode(I)-ejemploRefactorizacion.Movie#setPriceCode(I)VX
-<init>(Ljava/lang/String;I)9ejemploRefactorizacion.Movie#<init>(Ljava/lang/String;I)V¶
+<init>(Ljava/lang/String;I)9ejemploRefactorizacion.Movie#<init>(Ljava/lang/String;I)V(
+java.io.Serializablejava.lang.Object√
+java.lang.Throwablejava.lang.Objectjava.io.Serializable;
+printStackTrace()&java.lang.Throwable#printStackTrace()VZ
+getOurStackTrace()Djava.lang.Throwable#getOurStackTrace()[Ljava/lang/StackTraceElement;¡
+ìprintEnclosedStackTrace(Ljava/lang/Throwable$PrintStreamOrWriter;[Ljava/lang/StackTraceElement;Ljava/lang/String;Ljava/lang/String;Ljava/util/Set;)®java.lang.Throwable#printEnclosedStackTrace(Ljava/lang/Throwable$PrintStreamOrWriter;[Ljava/lang/StackTraceElement;Ljava/lang/String;Ljava/lang/String;Ljava/util/Set;)V>
+
+toString()0java.lang.Throwable#toString()Ljava/lang/String;w
+/<init>(Ljava/lang/String;Ljava/lang/Throwable;)Djava.lang.Throwable#<init>(Ljava/lang/String;Ljava/lang/Throwable;)VB
+getMessage()2java.lang.Throwable#getMessage()Ljava/lang/String;Q
+fillInStackTrace();java.lang.Throwable#fillInStackTrace()Ljava/lang/Throwable;s
+-setStackTrace([Ljava/lang/StackTraceElement;)Bjava.lang.Throwable#setStackTrace([Ljava/lang/StackTraceElement;)Va
+$addSuppressed(Ljava/lang/Throwable;)9java.lang.Throwable#addSuppressed(Ljava/lang/Throwable;)Vç
+:printStackTrace(Ljava/lang/Throwable$PrintStreamOrWriter;)Ojava.lang.Throwable#printStackTrace(Ljava/lang/Throwable$PrintStreamOrWriter;)Vm
+ initCause(Ljava/lang/Throwable;)Ijava.lang.Throwable#initCause(Ljava/lang/Throwable;)Ljava/lang/Throwable;)
+<init>()java.lang.Throwable#<init>()VT
+getStackTrace()Ajava.lang.Throwable#getStackTrace()[Ljava/lang/StackTraceElement;A
+
+getCause()3java.lang.Throwable#getCause()Ljava/lang/Throwable;e
+&printStackTrace(Ljava/io/PrintStream;);java.lang.Throwable#printStackTrace(Ljava/io/PrintStream;)Vg
+'readObject(Ljava/io/ObjectInputStream;)<java.lang.Throwable#readObject(Ljava/io/ObjectInputStream;)VM
+<init>(Ljava/lang/String;)/java.lang.Throwable#<init>(Ljava/lang/String;)VT
+getLocalizedMessage();java.lang.Throwable#getLocalizedMessage()Ljava/lang/String;e
+&printStackTrace(Ljava/io/PrintWriter;);java.lang.Throwable#printStackTrace(Ljava/io/PrintWriter;)V{
+1<init>(Ljava/lang/String;Ljava/lang/Throwable;ZZ)Fjava.lang.Throwable#<init>(Ljava/lang/String;Ljava/lang/Throwable;ZZ)VS
+fillInStackTrace(I)<java.lang.Throwable#fillInStackTrace(I)Ljava/lang/Throwable;S
+<init>(Ljava/lang/Throwable;)2java.lang.Throwable#<init>(Ljava/lang/Throwable;)Vk
+)writeObject(Ljava/io/ObjectOutputStream;)>java.lang.Throwable#writeObject(Ljava/io/ObjectOutputStream;)VL
+getSuppressed()9java.lang.Throwable#getSuppressed()[Ljava/lang/Throwable;Ô
+java.lang.Exceptionjava.lang.Throwable)
+<init>()java.lang.Exception#<init>()VM
+<init>(Ljava/lang/String;)/java.lang.Exception#<init>(Ljava/lang/String;)Vw
+/<init>(Ljava/lang/String;Ljava/lang/Throwable;)Djava.lang.Exception#<init>(Ljava/lang/String;Ljava/lang/Throwable;)V{
+1<init>(Ljava/lang/String;Ljava/lang/Throwable;ZZ)Fjava.lang.Exception#<init>(Ljava/lang/String;Ljava/lang/Throwable;ZZ)VS
+<init>(Ljava/lang/Throwable;)2java.lang.Exception#<init>(Ljava/lang/Throwable;)Vö
+java.lang.RuntimeExceptionjava.lang.Exception0
+<init>()$java.lang.RuntimeException#<init>()VT
+<init>(Ljava/lang/String;)6java.lang.RuntimeException#<init>(Ljava/lang/String;)V~
+/<init>(Ljava/lang/String;Ljava/lang/Throwable;)Kjava.lang.RuntimeException#<init>(Ljava/lang/String;Ljava/lang/Throwable;)VÇ
+1<init>(Ljava/lang/String;Ljava/lang/Throwable;ZZ)Mjava.lang.RuntimeException#<init>(Ljava/lang/String;Ljava/lang/Throwable;ZZ)VZ
+<init>(Ljava/lang/Throwable;)9java.lang.RuntimeException#<init>(Ljava/lang/Throwable;)V≈
+"java.lang.IllegalArgumentExceptionjava.lang.RuntimeException8
+<init>(),java.lang.IllegalArgumentException#<init>()V\
+<init>(Ljava/lang/String;)>java.lang.IllegalArgumentException#<init>(Ljava/lang/String;)VÜ
+/<init>(Ljava/lang/String;Ljava/lang/Throwable;)Sjava.lang.IllegalArgumentException#<init>(Ljava/lang/String;Ljava/lang/Throwable;)Vb
+<init>(Ljava/lang/Throwable;)Ajava.lang.IllegalArgumentException#<init>(Ljava/lang/Throwable;)Vº
+ejemploRefactorizacion.Pricejava.lang.ObjectV
+getFrequentRenterPoints(I)8ejemploRefactorizacion.Price#getFrequentRenterPoints(I)I2
+<init>()&ejemploRefactorizacion.Price#<init>()V
+Pricejava.lang.Object˘
+%ejemploRefactorizacion.ChildrensPricePriceG
+getPriceCode()5ejemploRefactorizacion.ChildrensPrice#getPriceCode()IC
+getCharge(I)3ejemploRefactorizacion.ChildrensPrice#getCharge(I)D;
+<init>()/ejemploRefactorizacion.ChildrensPrice#<init>()V¶
 ejemploRefactorizacion.Customerjava.lang.ObjectL
 statement()=ejemploRefactorizacion.Customer#statement()Ljava/lang/String;H
-	getName();ejemploRefactorizacion.Customer#getName()Ljava/lang/String;Y
-<init>(Ljava/lang/String;);ejemploRefactorizacion.Customer#<init>(Ljava/lang/String;)V÷
+	getName();ejemploRefactorizacion.Customer#getName()Ljava/lang/String;a
+getTotalFrequentRenterPoints()?ejemploRefactorizacion.Customer#getTotalFrequentRenterPoints()IY
+<init>(Ljava/lang/String;);ejemploRefactorizacion.Customer#<init>(Ljava/lang/String;)VT
+htmlStatement()AejemploRefactorizacion.Customer#htmlStatement()Ljava/lang/String;E
+getTotalCharge()1ejemploRefactorizacion.Customer#getTotalCharge()D÷
 java.lang.Iterablejava.lang.Objectd
 &forEach(Ljava/util/function/Consumer;):java.lang.Iterable#forEach(Ljava/util/function/Consumer;)VH
 spliterator()7java.lang.Iterable#spliterator()Ljava/util/Spliterator;å
@@ -54,8 +112,7 @@ pof(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljav
 Lof(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)kjava.util.List#of(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)Ljava/util/List;_
 copyOf(Ljava/util/Collection;)=java.util.List#copyOf(Ljava/util/Collection;)Ljava/util/List;*
 java.util.RandomAccessjava.lang.Object'
-java.lang.Cloneablejava.lang.Object(
-java.io.Serializablejava.lang.Object‚
+java.lang.Cloneablejava.lang.Object‚
 
 java.util.AbstractCollectionjava.util.Collectionjava.lang.Objecth
 #containsAll(Ljava/util/Collection;)Ajava.util.AbstractCollection#containsAll(Ljava/util/Collection;)Z4
@@ -300,8 +357,19 @@ valueOf(J)-java.lang.String#valueOf(J)Ljava/lang/String;2
 checkIndex(II) java.lang.String#checkIndex(II)VX
 !<init>(Ljava/lang/StringBuilder;)3java.lang.String#<init>(Ljava/lang/StringBuilder;)V%
 value()java.lang.String#value()[B`
-%regionMatches(ZILjava/lang/String;II)7java.lang.String#regionMatches(ZILjava/lang/String;II)Z≥
+%regionMatches(ZILjava/lang/String;II)7java.lang.String#regionMatches(ZILjava/lang/String;II)Z≈
 ejemploRefactorizacion.Rentaljava.lang.Object=
 
 getMovie()/ejemploRefactorizacion.Rental#getMovie()LMovie;A
-getDaysRented().ejemploRefactorizacion.Rental#getDaysRented()I
+getDaysRented().ejemploRefactorizacion.Rental#getDaysRented()I9
+getCharge()*ejemploRefactorizacion.Rental#getCharge()DU
+getFrequentRenterPoints()8ejemploRefactorizacion.Rental#getFrequentRenterPoints()Iﬂ
+&ejemploRefactorizacion.NewReleasePricePriceH
+getPriceCode()6ejemploRefactorizacion.NewReleasePrice#getPriceCode()ID
+getCharge(I)4ejemploRefactorizacion.NewReleasePrice#getCharge(I)D`
+getFrequentRenterPoints(I)BejemploRefactorizacion.NewReleasePrice#getFrequentRenterPoints(I)I<
+<init>()0ejemploRefactorizacion.NewReleasePrice#<init>()VÒ
+#ejemploRefactorizacion.RegularPricePriceE
+getPriceCode()3ejemploRefactorizacion.RegularPrice#getPriceCode()IA
+getCharge(I)1ejemploRefactorizacion.RegularPrice#getCharge(I)D9
+<init>()-ejemploRefactorizacion.RegularPrice#<init>()V

@@ -1,0 +1,48 @@
+
+1ejemploRefactorizacion.Customer#getTotalCharge()Dê
+ÖC:/Users/Francisco/Desktop/pis2/metricasRequisitos/ejemploRefactoring/ejemploRefactorizacion/src/ejemploRefactorizacion/Customer.java4 4("4*∂
+2ê
+ÖC:/Users/Francisco/Desktop/pis2/metricasRequisitos/ejemploRefactoring/ejemploRefactorizacion/src/ejemploRefactorizacion/Customer.java8 8(!òï
+ê
+ÖC:/Users/Francisco/Desktop/pis2/metricasRequisitos/ejemploRefactoring/ejemploRefactorizacion/src/ejemploRefactorizacion/Customer.java8 8(/
+%3java.lang.Object"5java.util.Enumeration#nextElement()Ljava/lang/Object;*"
+ 
+rentalsjava.util.Enumeration2nextElement()*
+3*ß
+3ê
+ÖC:/Users/Francisco/Desktop/pis2/metricasRequisitos/ejemploRefactoring/ejemploRefactorizacion/src/ejemploRefactorizacion/Customer.java7	 7(ÜÉ
+ê
+ÖC:/Users/Francisco/Desktop/pis2/metricasRequisitos/ejemploRefactoring/ejemploRefactorizacion/src/ejemploRefactorizacion/Customer.java7	 7("
+%2boolean"(java.util.Enumeration#hasMoreElements()Z*"
+ 
+rentalsjava.util.Enumeration2hasMoreElements()*
+2
+1*ı
+4ê
+ÖC:/Users/Francisco/Desktop/pis2/metricasRequisitos/ejemploRefactoring/ejemploRefactorizacion/src/ejemploRefactorizacion/Customer.java5 5(Á
+‰
+ê
+ÖC:/Users/Francisco/Desktop/pis2/metricasRequisitos/ejemploRefactoring/ejemploRefactorizacion/src/ejemploRefactorizacion/Customer.java6 6( 
+%0java.util.Vector"__id*1*/!
+ejemploRefactorizacion.Customer"
+
+_rentalsçä
+ê
+ÖC:/Users/Francisco/Desktop/pis2/metricasRequisitos/ejemploRefactoring/ejemploRefactorizacion/src/ejemploRefactorizacion/Customer.java6 6(+
+%1java.util.Enumeration"2java.util.Vector#elements()Ljava/util/Enumeration;*
+
+%0java.util.Vector2
+elements()›
+⁄
+ê
+ÖC:/Users/Francisco/Desktop/pis2/metricasRequisitos/ejemploRefactoring/ejemploRefactorizacion/src/ejemploRefactorizacion/Customer.java6 6(, 
+rentalsjava.util.Enumeration"__id*
+
+%1java.util.Enumeration*
+3*¥
+1ê
+ÖC:/Users/Francisco/Desktop/pis2/metricasRequisitos/ejemploRefactoring/ejemploRefactorizacion/src/ejemploRefactorizacion/Customer.java;	 ;("õ
+ê
+ÖC:/Users/Francisco/Desktop/pis2/metricasRequisitos/ejemploRefactoring/ejemploRefactorizacion/src/ejemploRefactorizacion/Customer.java; ;(
+""B#!
+ejemploRefactorizacion.Customer

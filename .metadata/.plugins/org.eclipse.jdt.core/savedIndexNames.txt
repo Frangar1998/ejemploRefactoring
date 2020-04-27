@@ -7,7 +7,6 @@ INDEX VERSION 1.131+C:\Users\Francisco\Desktop\pis2\metricasRequisitos\ejemploRe
 3924432333.index
 2469393919.index
 3749953610.index
-1126785689.index
 1279913850.index
 3872537624.index
 277098456.index

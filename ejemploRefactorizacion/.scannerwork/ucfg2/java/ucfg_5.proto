@@ -1,16 +1,10 @@
 
-;ejemploRefactorizacion.Customer#getName()Ljava/lang/String;ê
-ÖC:/Users/Francisco/Desktop/pis2/metricasRequisitos/ejemploRefactoring/ejemploRefactorizacion/src/ejemploRefactorizacion/Customer.java ("1*≠
-1ê
-ÖC:/Users/Francisco/Desktop/pis2/metricasRequisitos/ejemploRefactoring/ejemploRefactorizacion/src/ejemploRefactorizacion/Customer.java	 (‰
-·
-ê
-ÖC:/Users/Francisco/Desktop/pis2/metricasRequisitos/ejemploRefactoring/ejemploRefactorizacion/src/ejemploRefactorizacion/Customer.java	 (
-%0java.lang.String"__id*.*,!
-ejemploRefactorizacion.Customer"
-_name"≠
-ê
-ÖC:/Users/Francisco/Desktop/pis2/metricasRequisitos/ejemploRefactoring/ejemploRefactorizacion/src/ejemploRefactorizacion/Customer.java (
-
-%0java.lang.StringB#!
-ejemploRefactorizacion.Customer
+8ejemploRefactorizacion.Movie#getFrequentRenterPoints(I)Iç
+ÇC:/Users/Francisco/Desktop/pis2/metricasRequisitos/ejemploRefactoring/ejemploRefactorizacion/src/ejemploRefactorizacion/Movie.java- -("1*Æ
+1ç
+ÇC:/Users/Francisco/Desktop/pis2/metricasRequisitos/ejemploRefactoring/ejemploRefactorizacion/src/ejemploRefactorizacion/Movie.java.	 .("ò
+ç
+ÇC:/Users/Francisco/Desktop/pis2/metricasRequisitos/ejemploRefactoring/ejemploRefactorizacion/src/ejemploRefactorizacion/Movie.java. .(4
+"":
+""B 
+ejemploRefactorizacion.Movie

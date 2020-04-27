@@ -1,150 +1,15 @@
 
-=ejemploRefactorizacion.Customer#statement()Ljava/lang/String;ê
-ÖC:/Users/Francisco/Desktop/pis2/metricasRequisitos/ejemploRefactoring/ejemploRefactorizacion/src/ejemploRefactorizacion/Customer.java ("15*ö
-2ê
-ÖC:/Users/Francisco/Desktop/pis2/metricasRequisitos/ejemploRefactoring/ejemploRefactorizacion/src/ejemploRefactorizacion/Customer.java5 5(	˚
-¯
-ê
-ÖC:/Users/Francisco/Desktop/pis2/metricasRequisitos/ejemploRefactoring/ejemploRefactorizacion/src/ejemploRefactorizacion/Customer.java58 5(R
-%7java.lang.String"-java.lang.String#valueOf(D)Ljava/lang/String;*"
-java.lang.String*
-""*
-14*®
-14ê
-ÖC:/Users/Francisco/Desktop/pis2/metricasRequisitos/ejemploRefactoring/ejemploRefactorizacion/src/ejemploRefactorizacion/Customer.java	 (ÜÉ
-ê
-ÖC:/Users/Francisco/Desktop/pis2/metricasRequisitos/ejemploRefactoring/ejemploRefactorizacion/src/ejemploRefactorizacion/Customer.java	 ("
-%5boolean"(java.util.Enumeration#hasMoreElements()Z*"
- 
-rentalsjava.util.Enumeration2hasMoreElements()*
-6
-1*¥
-15ê
-ÖC:/Users/Francisco/Desktop/pis2/metricasRequisitos/ejemploRefactoring/ejemploRefactorizacion/src/ejemploRefactorizacion/Customer.java (Á
-‰
-ê
-ÖC:/Users/Francisco/Desktop/pis2/metricasRequisitos/ejemploRefactoring/ejemploRefactorizacion/src/ejemploRefactorizacion/Customer.java ( 
-%0java.util.Vector"__id*1*/!
-ejemploRefactorizacion.Customer"
-
-_rentalsçä
-ê
-ÖC:/Users/Francisco/Desktop/pis2/metricasRequisitos/ejemploRefactoring/ejemploRefactorizacion/src/ejemploRefactorizacion/Customer.java (+
-%1java.util.Enumeration"2java.util.Vector#elements()Ljava/util/Enumeration;*
-
-%0java.util.Vector2
-elements()›
-⁄
-ê
-ÖC:/Users/Francisco/Desktop/pis2/metricasRequisitos/ejemploRefactoring/ejemploRefactorizacion/src/ejemploRefactorizacion/Customer.java (, 
-rentalsjava.util.Enumeration"__id*
-
-%1java.util.Enumerationõò
-ê
-ÖC:/Users/Francisco/Desktop/pis2/metricasRequisitos/ejemploRefactoring/ejemploRefactorizacion/src/ejemploRefactorizacion/Customer.java) (2
-%2java.lang.String";ejemploRefactorizacion.Customer#getName()Ljava/lang/String;*#!
-ejemploRefactorizacion.Customer2	getName()Í
-Á
-ê
-ÖC:/Users/Francisco/Desktop/pis2/metricasRequisitos/ejemploRefactoring/ejemploRefactorizacion/src/ejemploRefactorizacion/Customer.java (2
-%3java.lang.String"__concat*
-Rental Record for *
-
-%2java.lang.String⁄
-◊
-ê
-ÖC:/Users/Francisco/Desktop/pis2/metricasRequisitos/ejemploRefactoring/ejemploRefactorizacion/src/ejemploRefactorizacion/Customer.java (9
-%4java.lang.String"__concat*
-
-%3java.lang.String*
-\n“
-œ
-ê
-ÖC:/Users/Francisco/Desktop/pis2/metricasRequisitos/ejemploRefactoring/ejemploRefactorizacion/src/ejemploRefactorizacion/Customer.java (:
-resultjava.lang.String"__id*
-
-%4java.lang.String*
-14*∂
-6ê
-ÖC:/Users/Francisco/Desktop/pis2/metricasRequisitos/ejemploRefactoring/ejemploRefactorizacion/src/ejemploRefactorizacion/Customer.java (òï
-ê
-ÖC:/Users/Francisco/Desktop/pis2/metricasRequisitos/ejemploRefactoring/ejemploRefactorizacion/src/ejemploRefactorizacion/Customer.java (/
-%6java.lang.Object"5java.util.Enumeration#nextElement()Ljava/lang/Object;*"
- 
-rentalsjava.util.Enumeration2nextElement()*
-2*Å
-1ê
-ÖC:/Users/Francisco/Desktop/pis2/metricasRequisitos/ejemploRefactoring/ejemploRefactorizacion/src/ejemploRefactorizacion/Customer.java9 9(˚
-¯
-ê
-ÖC:/Users/Francisco/Desktop/pis2/metricasRequisitos/ejemploRefactoring/ejemploRefactorizacion/src/ejemploRefactorizacion/Customer.java9  9(;
-%8java.lang.String"-java.lang.String#valueOf(D)Ljava/lang/String;*"
-java.lang.String*
-""Á
-‰
-ê
-ÖC:/Users/Francisco/Desktop/pis2/metricasRequisitos/ejemploRefactoring/ejemploRefactorizacion/src/ejemploRefactorizacion/Customer.java9 9(;
-%9java.lang.String"__concat*
-Amount owed is *
-
-%8java.lang.String€
-ÿ
-ê
-ÖC:/Users/Francisco/Desktop/pis2/metricasRequisitos/ejemploRefactoring/ejemploRefactorizacion/src/ejemploRefactorizacion/Customer.java9 9(B
-%10java.lang.String"__concat*
-
-%9java.lang.String*
-\nÚ
-Ô
-ê
-ÖC:/Users/Francisco/Desktop/pis2/metricasRequisitos/ejemploRefactoring/ejemploRefactorizacion/src/ejemploRefactorizacion/Customer.java9 9(B
-%11java.lang.String"__concat*
-
-resultjava.lang.String*
-
-%10java.lang.String”
-–
-ê
-ÖC:/Users/Francisco/Desktop/pis2/metricasRequisitos/ejemploRefactoring/ejemploRefactorizacion/src/ejemploRefactorizacion/Customer.java9 9(B
-resultjava.lang.String"__id*
-
-%11java.lang.String¸
-˘
-ê
-ÖC:/Users/Francisco/Desktop/pis2/metricasRequisitos/ejemploRefactoring/ejemploRefactorizacion/src/ejemploRefactorizacion/Customer.java: :(@
-%12java.lang.String"-java.lang.String#valueOf(I)Ljava/lang/String;*"
-java.lang.String*
-""Â
-‚
-ê
-ÖC:/Users/Francisco/Desktop/pis2/metricasRequisitos/ejemploRefactoring/ejemploRefactorizacion/src/ejemploRefactorizacion/Customer.java: :(@
-%13java.lang.String"__concat*
-You earned *
-
-%12java.lang.StringÒ
-Ó
-ê
-ÖC:/Users/Francisco/Desktop/pis2/metricasRequisitos/ejemploRefactoring/ejemploRefactorizacion/src/ejemploRefactorizacion/Customer.java: :(\
-%14java.lang.String"__concat*
-
-%13java.lang.String*
- frequent renter pointsÚ
-Ô
-ê
-ÖC:/Users/Francisco/Desktop/pis2/metricasRequisitos/ejemploRefactoring/ejemploRefactorizacion/src/ejemploRefactorizacion/Customer.java: :(\
-%15java.lang.String"__concat*
-
-resultjava.lang.String*
-
-%14java.lang.String”
-–
-ê
-ÖC:/Users/Francisco/Desktop/pis2/metricasRequisitos/ejemploRefactoring/ejemploRefactorizacion/src/ejemploRefactorizacion/Customer.java: :(\
-resultjava.lang.String"__id*
-
-%15java.lang.String"±
-ê
-ÖC:/Users/Francisco/Desktop/pis2/metricasRequisitos/ejemploRefactoring/ejemploRefactorizacion/src/ejemploRefactorizacion/Customer.java; ;(
-
-resultjava.lang.StringB#!
-ejemploRefactorizacion.Customer
+8ejemploRefactorizacion.Price#getFrequentRenterPoints(I)Iç
+ÇC:/Users/Francisco/Desktop/pis2/metricasRequisitos/ejemploRefactoring/ejemploRefactorizacion/src/ejemploRefactorizacion/Price.java	 	("1*Æ
+1ç
+ÇC:/Users/Francisco/Desktop/pis2/metricasRequisitos/ejemploRefactoring/ejemploRefactorizacion/src/ejemploRefactorizacion/Price.java
+	 
+(
+"ò
+ç
+ÇC:/Users/Francisco/Desktop/pis2/metricasRequisitos/ejemploRefactoring/ejemploRefactorizacion/src/ejemploRefactorizacion/Price.java
+ 
+(
+"":
+""B 
+ejemploRefactorizacion.Price
